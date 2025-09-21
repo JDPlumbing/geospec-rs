@@ -12,6 +12,9 @@ keywords = ["geometry", "mask", "quaternion", "geospec", "shapes"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ciborium = "0.2"   # for CBOR
+serde_yaml = "0.9" # for YAML
 
 [[bench]]
 name = "geospec_bench"
@@ -19,3 +22,4 @@ harness = false
 
 [dev-dependencies]
 criterion = "0.5"
+serde_json = "1.0"
