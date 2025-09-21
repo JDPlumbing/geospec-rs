@@ -3,12 +3,12 @@ name = "geospec"
 version = "0.1.0"
 edition = "2021"
 authors = ["JD Plumbing <jdplumbingsoflo@gmail.com>"]
-description = "GeoSpec: geometric parameter encoding, quaternion utils, and shape inference."
+description = "A geometry specification library for ECS-style simulations. Provides shape definitions (sphere, box, cylinder, etc.), dimension inference, and JSON serialization for physical objects."
 license = "MIT"
 repository = "https://github.com/JDPlumbing/geospec-rs"
 readme = "README.md"
 categories = ["geometry", "science", "data-structures"]
-keywords = ["geometry", "mask", "quaternion", "geospec", "shapes"]
+keywords = ["geometry", "dimensions", "geospec", "shapes"]
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
