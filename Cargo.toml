@@ -7,7 +7,7 @@ description = "A geometry specification library for ECS-style simulations. Provi
 license = "MIT"
 repository = "https://github.com/JDPlumbing/geospec-rs"
 readme = "README.md"
-categories = ["geometry", "science", "data-structures"]
+categories = ["mathematics", "science", "simulation"]
 keywords = ["geometry", "dimensions", "geospec", "shapes"]
 
 [dependencies]
